@@ -84,17 +84,16 @@ html,body {
 /******************************
  SLIDE 2
 *******************************/
-#slide2{
-    background-color:#ccc;
+#slide3{
+    background-color:#fff;
 }
-
 
 
 
 
 /*  for form  */
 
-.wpcf7 { width: 360px; margin: 0 auto 180px; }
+.wpcf7 { max-width: 300px; margin-left: auto; margin-right: auto; padding-top: 10%; }
 .wpcf7 h4 { display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; border-bottom: 2px solid #111; text-transform: uppercase; }
 .wpcf7 p { font-size: 11px; line-height: 12px; }
 .wpcf7 .wpcf7-text, .wpcf7 .wpcf7-textarea { border: 0; border-bottom: 1px solid #111; display: block; width: 100%; }
@@ -119,3 +118,11 @@ background-color: #fff; }
 .wpcf7 .required { padding-left: 5px; }
 .wpcf7 .instructions { font: 14px/19px georgia; text-transform: none; margin-bottom: 40px; }
 .wpcf7 .submission { margin-top: 30px; }
+
+
+
+
+
+
+/* more form things */
+
