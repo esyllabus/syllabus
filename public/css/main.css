@@ -9,6 +9,13 @@ html,body {
 	height : 100%;
 }
 
+body {
+    margin      : 0px;
+    min-width   : 300px;
+    padding     : 0px;
+    font-family: 'Questrial', sans-serif;
+    overflow-x  : hidden;
+}
 
 /* for parallax slides */
 

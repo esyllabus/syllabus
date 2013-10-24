@@ -7,7 +7,7 @@ body {
 	margin      : 0px;
 	min-width   : 300px;
 	padding     : 0px;
-	font-family : "Caecilia-Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-family: 'Questrial', sans-serif;
 	overflow-x  : hidden;
 }
 
@@ -35,7 +35,7 @@ p {
 }
 
 p, ul {
-	font-family      : "Caecilia-Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-family: 'Questrial', sans-serif;
 	font-weight      : 200;
 	font-style       : normal;
 	list-style       : none;
@@ -57,20 +57,20 @@ img {
 }
 
 h1 {
-	font-family      : "Caecilia-RomanSC", Verdana, serif;
+	font-family: 'Questrial', sans-serif;
 	font-weight      : bold;
 	font-style       : normal;
 }
 
 h2 {
-	font-family : "Caecilia-RomanSC", Verdana, sans-serif;
+	font-family: 'Questrial', sans-serif;
 	font-size   : 30px; 
 	font-weight : bold;
 	line-height : 80px;
 }
 
 h3 {
-	font-family : "Caecilia-Roman", Verdana, sans-serif;
+	font-family: 'Questrial', sans-serif;
 	font-size   : 16px;
 	font-weight : bold;
 	margin      : 1em 0;
