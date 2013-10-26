@@ -5,8 +5,8 @@
    ========================================================================== */
 
 html,body {
-	width  : 100%;
-	height : 100%;
+    width  : 100%;
+    height : 100%;
 }
 
 body {
@@ -20,25 +20,25 @@ body {
 /* for parallax slides */
 
 .navigation{
-	position:fixed;
-	z-index:1;
-	top:20px;
+    position:fixed;
+    z-index:1;
+    top:20px;
 }
 .navigation li{
-	color:#333333;
-	display:block;
-	padding: 0 10px;
-	line-height:20px;
-	margin-bottom:2px;
-	font-weight:bold;
-	-webkit-transition: all .2s ease-in-out;
-	border-bottom:1px solid #bbb;
-	text-align:left;
-	width:53px;
+    color:#333333;
+    display:block;
+    padding: 0 10px;
+    line-height:20px;
+    margin-bottom:2px;
+    font-weight:bold;
+    -webkit-transition: all .2s ease-in-out;
+    border-bottom:1px solid #bbb;
+    text-align:left;
+    width:53px;
 }
 .navigation li:hover,.active{
-	color:red !important;
-	cursor:pointer;
+    color:red !important;
+    cursor:pointer;
 }
 .slide {
     background-attachment: fixed;
@@ -198,3 +198,24 @@ input:focus, select:focus, textarea:focus { border: none; outline: none; -moz-bo
 
 /* Transition elements */
 a, button, .button { -moz-transition: color 0.15s ease-in; -ms-transition: color 0.15s ease-in; -o-transition: color 0.15s ease-in; -webkit-transition: color 0.15s ease-in; transition: color 0.15s ease-in; -o-transition-property: background-color, border-color, color, opacity; -moz-transition-property: background-color, border-color, color, opacity; -ms-transition-property: background-color, border-color, color, opacity; -webkit-transition-property: background-color, border-color, color, opacity; transition-property: background-color, border-color, color, opacity; }
+
+
+
+
+/* about slide */
+
+.slide:nth-of-type(2) {
+    display:table;
+}
+
+.about-us {
+    width:550px;
+    min-width:300px;
+    padding: 30px;
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;    
+
+}
+
