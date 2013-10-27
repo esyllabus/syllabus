@@ -13,9 +13,13 @@ body {
     margin      : 0px;
     min-width   : 300px;
     padding     : 0px;
-    font-family: 'Questrial', sans-serif;
     overflow-x  : hidden;
 }
+
+ @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+
+
+
 
 /* for parallax slides */
 
@@ -30,7 +34,6 @@ body {
     padding: 0 10px;
     line-height:20px;
     margin-bottom:2px;
-    font-weight:bold;
     -webkit-transition: all .2s ease-in-out;
     border-bottom:1px solid #bbb;
     text-align:left;
@@ -52,26 +55,17 @@ body {
     margin:0 auto;
     position:relative;
 }
-.slideno {
-    position:absolute;
-    bottom:0px;
-    left:0px;
-    font-size:100px;
-    font-weight:bold;
-    color:rgba(255,255,255,0.3);
-}
-.button{
+
+.next-slide{
     display:block;
     width:50px;
     height:50px;
     position:absolute;
     bottom:0px;
     left:50%;
-    background-color:#333333;
     margin-left:-25px;
 }
-.button:hover{
-    background-color:#494949;
+.next-slide:hover{
     cursor:pointer;
 }
 
@@ -97,12 +91,49 @@ body {
 
 
 
+/* for vertical align */
+
+.slide {
+    display:table;
+}
+
+
+/* first slide */
+
+.slide h1 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align:center;    
+}
+
+
+/* about slide */
+
+
+
+.about-us {
+    width:550px;
+    min-width:300px;
+    padding: 30px;
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;    
+
+}
+
+
 
 /*  for form  */
 
-.wpcf7 { max-width: 300px; margin-left: auto; margin-right: auto; padding-top: 10%; padding-bottom:10%;}
+.wpcf7 {     width:450px;
+    min-width:300px;
+    padding: 60px;
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;    }
 .wpcf7 h4 { display: -moz-inline-stack; display: inline-block; vertical-align: middle; *vertical-align: auto; zoom: 1; *display: inline; border-bottom: 2px solid #111; text-transform: uppercase; }
-.wpcf7 p { font-size: 11px; line-height: 12px; }
 .wpcf7 .wpcf7-text, .wpcf7 .wpcf7-textarea { border: 0; border-bottom: 1px solid #111; display: block; width: 100%; }
 .wpcf7 .button { border: 1px solid #111;
 float: left;
@@ -115,15 +146,15 @@ left: 0;
 margin: 0;
 background-color: #fff; }
 .wpcf7 .button:hover { background: #a13922; color: #FFF; border: 1px solid #a13922; }
-.wpcf7 .file-upload { position: relative; text-align: center; }
+.wpcf7 .file-upload { position: relative; text-align: center; font-weight: normal;}
 .wpcf7 input[type=file] { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; position: absolute; top: 0; left: 0; height: 100%; width: 100px; }
-.wpcf7 input[type=text] { font-family: georgia; font-size: 12px; line-height: 20px; }
+.wpcf7 input[type=text] { line-height: 20px; }
 .wpcf7 input[type=submit] { background: #FFF; float: right; }
 .wpcf7 textarea { resize: none; }
 .wpcf7 .wpcf7-validation-errors, .wpcf7 .required { color: #a13922; }
 .wpcf7 .wpcf7-validation-errors { clear: both; margin-top: 20px; font-size: 14px; }
 .wpcf7 .required { padding-left: 5px; }
-.wpcf7 .instructions { font: 14px/19px georgia; text-transform: none; margin-bottom: 40px; }
+.wpcf7 .instructions { text-transform: none; margin-bottom: 40px; }
 .wpcf7 .submission { margin-top: 30px; }
 
 
@@ -137,7 +168,7 @@ form { margin: 0; }
 fieldset { border: 0; margin: 0; padding: 0; }
 
 /* Indicate that 'label' will shift focus to the associated form element */
-label { cursor: pointer; font-weight: bold; }
+label { cursor: pointer; }
 
 legend { border: 0; *margin-left: -7px; padding: 0; }
 
@@ -201,21 +232,4 @@ a, button, .button { -moz-transition: color 0.15s ease-in; -ms-transition: color
 
 
 
-
-/* about slide */
-
-.slide:nth-of-type(2) {
-    display:table;
-}
-
-.about-us {
-    width:550px;
-    min-width:300px;
-    padding: 30px;
-    display: table-cell;
-    vertical-align: middle;
-    margin-left: auto;
-    margin-right: auto;    
-
-}
 

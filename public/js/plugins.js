@@ -37,7 +37,7 @@ jQuery(document).ready(function ($) {
 
 
     slide = $('.slide');
-    button = $('.button');
+    button = $('.next-slide');
     mywindow = $(window);
     htmlbody = $('html,body');
 
@@ -95,11 +95,12 @@ jQuery(document).ready(function ($) {
     });
 
     //When the user clicks on the button, get the get the data-slide attribute value of the button and pass that variable to the goToByScroll function
-    button.click(function (e) {
+   button.click(function (e) {
         e.preventDefault();
         dataslide = $(this).attr('data-slide');
         goToByScroll(dataslide);
     });
 
+  
 
 });
