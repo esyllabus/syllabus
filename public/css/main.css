@@ -129,8 +129,25 @@ body {
     vertical-align: middle;
     margin-left: auto;
     margin-right: auto;    
+}
+
+
+/* contact slide */
+
+.aloha {
+    text-align:center;
+    display:table-cell;
+    vertical-align:middle;
+    color:#333333;
+}
+
+.aloha:hover {
+
+    text-decoration:none;
 
 }
+
+
 
 
 
